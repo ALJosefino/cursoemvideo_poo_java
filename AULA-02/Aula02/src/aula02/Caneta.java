@@ -13,7 +13,7 @@ public class Caneta {
     
     int carga;
     
-    boolean tampa;
+    boolean tampada;
 
 // Métodos
     
