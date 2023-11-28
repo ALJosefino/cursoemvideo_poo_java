@@ -15,6 +15,8 @@ public class Aula03 {
         
         c1.cor = "Azul";
         
+        // Visibilidade privada c1.ponta = 0.5f;
+        
         // Método do objeto instanciado da Classe Caneta
         
         c1.status();
