@@ -15,7 +15,8 @@ public class Aula03 {
         
         c1.cor = "Azul";
         
-        c1.ponta = 0.5f;
+       /* Retornada visibilidade privada, agora esta comentado 
+       pois indica erro  c1.ponta = 0.5f; */
                
         // Método do objeto instanciado da Classe Caneta
         
