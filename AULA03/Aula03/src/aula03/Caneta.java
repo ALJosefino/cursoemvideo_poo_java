@@ -3,17 +3,17 @@ package aula03;
 
 public class Caneta {
 
-        String modelo;
+        public String modelo;
         
-        String cor;
+        public String cor;
         
-        float ponta;
+        private float ponta;
         
-        int carga;
+        protected int carga;
         
-        boolean tampada;
+        protected boolean tampada;
         
-        void status() {
+        public void status() {
         
             System.out.println( "Caneta modelo: " + this.modelo );
             
@@ -27,7 +27,7 @@ public class Caneta {
             
         }
     
-        void rabiscar() {
+        public void rabiscar() {
         
             if ( this.tampada == true ) {
             
@@ -41,13 +41,13 @@ public class Caneta {
                     
         }
         
-        void tampar() {
+        private void tampar() {
                     
             this.tampada = true;
             
         }
 
-        void destammpar() {
+        private void destammpar() {
 
             this.tampada = false;
         
