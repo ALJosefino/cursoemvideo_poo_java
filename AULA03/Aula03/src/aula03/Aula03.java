@@ -25,6 +25,8 @@ public class Aula03 {
         // Método do objeto instanciado da Classe Caneta
         
         c1.status();
+        
+        c1.rabiscar();
                 
     }
     

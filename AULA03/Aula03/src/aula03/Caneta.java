@@ -27,7 +27,7 @@ public class Caneta {
             
         }
     
-        private void rabiscar() {
+        public void rabiscar() {
         
             if ( this.tampada == true ) {
             
