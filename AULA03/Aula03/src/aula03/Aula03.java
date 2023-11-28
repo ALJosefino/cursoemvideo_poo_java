@@ -17,7 +17,11 @@ public class Aula03 {
         
        /* Retornada visibilidade privada, agora esta comentado 
        pois indica erro  c1.ponta = 0.5f; */
-               
+        
+       c1.carga = 80;
+       
+       c1.tampada = true;
+       
         // Método do objeto instanciado da Classe Caneta
         
         c1.status();
