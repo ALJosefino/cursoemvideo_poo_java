@@ -11,7 +11,7 @@ public class Caneta {
         
         protected int carga;
         
-        protected boolean tampada;
+        private boolean tampada;
         
         public void status() {
         
@@ -41,13 +41,13 @@ public class Caneta {
                     
         }
         
-        private void tampar() {
+        public void tampar() {
                     
             this.tampada = true;
             
         }
 
-        private void destammpar() {
+        public void destampar() {
 
             this.tampada = false;
         

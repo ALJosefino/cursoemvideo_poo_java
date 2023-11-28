@@ -20,14 +20,17 @@ public class Aula03 {
         
        c1.carga = 80;
        
-       c1.tampada = true;
-       
+       //c1.tampada = false;
+              
         // Método do objeto instanciado da Classe Caneta
         
-        c1.status();
+        c1.tampar();
         
+        c1.status();
+               
         c1.rabiscar();
-                
+       
+        
     }
     
 }
