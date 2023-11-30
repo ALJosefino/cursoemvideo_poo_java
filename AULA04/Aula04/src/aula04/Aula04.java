@@ -21,8 +21,13 @@ public class Aula04 {
         
         // ACESSO AOS MÉTODOS
         
-        c1.status();
+        //c1.status();
     
+        // USO DE MÉTODOS ACESSORES
+        
+        System.out.println("Esta é uma caneta MODELO: " + c1.getModelo() +
+                ", com PONTA: " + c1.getPonta() + ".");
+        
     }
     
 }

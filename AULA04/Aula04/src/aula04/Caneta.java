@@ -35,9 +35,9 @@ public class Caneta {
     
         System.out.println("SOBRE ESTA CANETA: ");
         
-        System.out.println("Caneta MODELO: " + this.modelo );
+        System.out.println("Caneta MODELO: " + this.getModelo() );
      
-        System.out.println("Caneta com PONTA: " + this.ponta );
+        System.out.println("Caneta com PONTA: " + this.getPonta() );
         
     }
         
