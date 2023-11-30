@@ -33,8 +33,10 @@ public class Aula04 {
         
         */        
         
-        // INSTANCIANDO DA CLASSE CANETA SEGUNDA VEZ
+        // INSTANCIANDO DA CLASSE CANETA MAIS VEZES
         
+        /* 
+
         Caneta c2 = new Caneta();
         
         c2.status();
@@ -46,6 +48,21 @@ public class Aula04 {
         Caneta c4 = new Caneta();
         
         c4.status();
+    
+        */
+
+        /* INSTANCIA DA CLASSE CANETA COM MÉTODO CONSTRUTOR 
+        COM PASSAGEM DE PARÂMETROS */
+        
+        Caneta c5 = new Caneta( "NIC", "Azul", 0.4f, true);
+     
+        c5.status();
+        
+        
+        Caneta c6 = new Caneta ("KKK", "Laranha", 1.5f, false);
+        
+        c6.status();
+    
     }
     
 }

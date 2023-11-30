@@ -15,20 +15,32 @@ public class Caneta {
     
     // MÉTODO CONSTRUTOR
     
-    public Caneta() {
-                
-        this.setTampada(true);
+    public Caneta( String m, String c, float p, boolean t ) {
         
-        // this.tampada = true;
-                
-        this.setCor("Azul");        
+        this.setModelo(m);
+        
+        // this.setModelo("NIC");
+        
+        // this.modelo = "NIC";
+                       
+        this.setCor(c);
+        
+        // this.setCor("Azul");        
             
         // this.cor = "Azul";
         
-        this.setPonta(0.4f);
+        this.setPonta(p);
+        
+        // this.setPonta(0.4f);
         
         // this.ponta = 0.4f; 
     
+        this.setTampada(t);
+
+        // this.setTampada(true);
+        
+        // this.tampada = true;
+        
     }
         
     // MÉTODOS ACESSORES E MODIFICADORES
