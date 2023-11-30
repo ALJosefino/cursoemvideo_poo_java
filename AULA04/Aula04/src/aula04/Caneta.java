@@ -3,7 +3,7 @@ package aula04;
 
 public class Caneta {
 
-    public String modelo;
+    private String modelo;
     
     private float ponta;
     
